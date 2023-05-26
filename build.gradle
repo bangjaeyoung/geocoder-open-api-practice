@@ -18,8 +18,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
-	// 위도, 경도
-	implementation 'com.google.code.geocoder-java:geocoder-java:0.16'
+	// WebClient
+	implementation 'org.springframework.boot:spring-boot-starter-webflux'
 }
 
 tasks.named('test') {
